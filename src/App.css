@@ -1,73 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 
-body{
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
   background-color: #cee8e0;
   font-family: "Orbitron", sans-serif;
-  color:#4b4b4b
+  color: #4b4b4b;
 }
-h1{
+
+h1 {
   margin: 0 0 5rem 0;
   text-align: center;
-  
 }
-.timer-container{
+
+.timer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
   padding: 2rem;
   border-radius: 50px;
-  background: linear-gradient(145deg, #dcf8f0, #b9d1ca);
-  box-shadow:  33px 33px 66px #afc5be,
-               -33px -33px 66px #edffff;
-            
+  background: linear-gradient(145deg, #d1f3e7, #b0ccc2);
+  box-shadow: 31px 31px 61px #bbdacf, -31px -31px 61px #cbece1;
 }
-.timeLeft-wrapper{
-display: flex;
-align-items: center;
-justify-content: center;
- width: 16rem;
- height: 5rem;
- border-radius: 0px;
- background: #ffffff;
- box-shadow: inset 13px 13px 26px #d9d9d9,
-             inset -13px -13px 26px #ffffff;
- h2{
-  
-  font-size: 2rem;
-  color: #ff3200;
- }
+
+.timeLeft-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16rem;
+  height: 5rem;
+  border-radius: 50px;
+  box-shadow: inset 20px 20px 60px #a6a6a6, inset -20px -20px 60px #ffff;
+  background-size: 0.5rem 0.5rem;
+  background-repeat: round;
+
+  h2 {
+    font-size: 2rem;
+    color: #ff3200;
+  }
 }
-.button-wrapper{
+
+.button-wrapper {
   display: flex;
   justify-content: center;
   gap: 1rem;
-button{
-width: 5rem;
-height: 5rem;
-border: none;
-border-radius: 50px;
-transition: all 200ms linear;
-border-radius: 50px;
-background: linear-gradient(145deg, #b9d1ca, #dcf8f0);
-box-shadow:  8px 8px 16px #afc5be,
-             -8px -8px 16px #edffff;
-/* &:hover{
-  border-radius: 50px;
-  background: #cee8e0;
-  box-shadow:  20px 20px 60px #afc5be,
-               -20px -20px 60px #edffff;
-} */
-&:active{
-  border-radius: 50px;
-  background: #cee8e0;
-  box-shadow: inset 8px 8px 16px #afc5be,
-              inset -8px -8px 16px #edffff;
-}
 
-}
+  button {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    transition: all 200ms linear;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #b0ccc2, #d1f3e7);
+    box-shadow: 8px 8px 17px #bbdacf, -8px -8px 17px #cbece1;
+
+    &:active {
+      border-radius: 50px;
+      background: #c3e3d8;
+      box-shadow: inset 8px 8px 17px #bbdacf, inset -8px -8px 17px #cbece1;
+    }
+  }
 }
